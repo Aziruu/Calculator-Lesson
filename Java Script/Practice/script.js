@@ -1,0 +1,1 @@
+const meng = document.querySelector('#miaw')

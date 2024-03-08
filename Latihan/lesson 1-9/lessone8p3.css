@@ -1,0 +1,121 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#fname{
+    width: 130px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: ligtgray;
+}
+
+#lname{
+    width: 130px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: ligtgray;
+
+}
+
+#emai{
+    width: 265px;
+    height: 35px;
+    padding: 10px;
+    margin-top: 10px;
+    display: block;
+    border-radius: 5px;
+    border-color: ligtgray;
+
+}
+
+#up{
+    width: 265px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: rgb(25, 93, 239);
+    color: white;
+    border: none;
+}
+
+#fname:focus{
+    outline: black;
+}
+
+#lname:focus{
+    outline: black;
+}
+
+#emai:focus{
+    outline: black;
+}
+
+#up:hover{
+    background: rgb(12, 67, 184);
+}
+
+#up:active{
+    background: rgb(12, 67, 184);
+}
+
+#tle{
+    font-size: 35;
+}
+
+#pick{
+    width: 350px;
+    height: 45px;
+    padding: 10px;
+    display: block;
+    margin-top: 25px;
+    background: lightgray;
+    border: none;
+}
+
+#des{
+    width: 350px;
+    height: 45px;
+    padding: 10px;
+    display: block;
+    margin-top: 7px;
+    background: lightgray;
+    border: none;
+}
+
+#pick:focus{
+    outline: none;
+}
+
+#des:focus{
+    outline: none;
+}
+
+#req{
+    width: 130px;
+    height: 45px;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    background: black;
+    color: white;
+}
+
+#schd{
+    width: 160px;
+    height: 45px;
+    padding: 10px;
+    border: none;
+    background: lightgray;
+    color: black;
+    
+}
+
+#req:hover{
+    background: rgb(56, 56, 56);
+}
+
+#schd:hover{
+    opacity: 50%;
+}

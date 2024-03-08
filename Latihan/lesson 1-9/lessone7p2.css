@@ -1,0 +1,83 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.srce{
+    height: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    border-color: lightgray;
+}
+
+.srce:focus{
+    outline: none;
+}
+
+.ur{
+   height: 20px;
+   width: 500px;
+   padding: 12px;
+   border-radius: 100px;
+   border: none;
+   box-shadow: 2px 2px 2px 1px rgba(1, 1, 1, 0.5);
+   text-align: left;
+}
+.ur:focus {
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    outline: none;
+}
+.ema{
+    height: 20px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.ema:focus {
+    outline: none;
+}
+
+#agr{
+    height: 60px;
+    width: 525px;
+    padding: 10px;
+    background: rgb(45, 85, 246);
+    color: white;
+    border: none;
+    border-radius: 100px;
+}
+
+#agr:hover {
+    background: rgb(27, 59, 189);
+}
+
+#ct{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    vertical-align: middle;
+}
+
+#whp{
+    width: 400px;
+    height: 50px;
+    padding-left: 10px;
+    border: none;
+}
+#whp:focus {
+    outline: none;
+}
+
+#twett {
+    width: 75px;
+    height: 35px;
+    background: rgb(45, 85, 246);
+    color: white;
+    border: none;
+    border-radius: 100px;
+}
+
+#twett:hover {
+    background: rgb(31, 63, 190);   
+}

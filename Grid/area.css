@@ -1,0 +1,21 @@
+.coontainer{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    margin: auto;
+    gap: 20px;
+}
+
+.item{
+    width: 100%;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 100px;
+    align-items: center;
+}
+
+.item:nth-child(even){
+    background-color: red;
+}

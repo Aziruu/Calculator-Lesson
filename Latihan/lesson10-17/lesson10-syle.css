@@ -1,0 +1,200 @@
+.ytles1{
+        display: block;
+}
+
+#thum1{
+        width: 100%;
+        height: 100px;
+}
+
+.ytdesk{
+        display: block;
+        margin-left: 10px;
+        position: relative;
+        bottom: 13px;
+}
+
+.ytitem1{
+        display: flex;
+        font-family: "Roboto";
+}
+
+#twitpp{
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+        margin-top: 15px;
+        margin-right: 10px;
+}
+
+.item2{
+        font-family: roboto;
+        font-size: 14px;
+        color: gray;
+        margin-right: 120px;
+        margin-left: 10px;
+        display: block;
+
+
+        #tit{
+                font-size: 16px;
+                color: black;
+        }
+
+        #des1{
+                position: relative;
+                bottom: 10px;
+        }
+
+        #des2{
+                position: relative;
+                bottom: 16px;
+        }
+}
+
+.twit{
+        display: flex;
+}
+
+#twit-btn{
+        font-family: roboto;
+        color: white;
+        background-color: blue;
+        font-size: 14px;
+        border: none;
+        border-radius: 5px;
+        width: 70px;
+        height: 40px;
+}
+
+#twit-btn:hover{
+        background-color: rgb(8, 8, 192);
+}
+
+.btn-lay{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-bottom: 20px;
+}
+
+.btn-lay1{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-bottom: 20px;
+        position: relative;
+        right: 90px;
+}
+
+.btn-lay2{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-bottom: 20px;
+        position: relative;
+        right: 50px;
+}
+
+.fb{
+        width: 170px;
+        height: 290px;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        margin-left: 20px;
+}
+
+.fb-lay{
+        padding: 5px;
+}
+
+.fb-item2{
+        display: inline-block;
+}
+
+.fb-item3{
+        display: inline-block;
+        font-family: roboto;
+        font-size: 13px;
+        color: gray;
+        
+        #iem-des{
+                margin-left: 5px;
+                position: relative;
+                bottom: 10px;
+        }
+}
+
+#fb-pic{
+        width: 170px;
+        display: flex;
+}
+
+#fred{
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+}
+
+#fb-name{
+        display: block;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: montserrat;
+        padding-bottom: 5px;
+}
+
+#fb-btn{
+        padding: 8px;
+        width: 100px;
+        height: 35px;
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 5px;
+}
+
+#fb-btn:hover{
+        background-color: rgb(9, 9, 206);
+}
+
+.face-b{
+        display: flex;
+}
+
+.grid1{
+        display: grid;
+        grid-template-columns: 200px 75px;
+}
+
+.grid2{
+        display: grid;
+        grid-template-columns: 50px 75fr  50px;
+}
+
+.grid3{
+        display: grid;
+        grid-template-columns: 100px 100px 100px 100px;
+        column-gap: 20px;
+        row-gap: 10px;
+}
+
+.fb-item2-grid{
+        vertical-align: grid;
+}
+
+.fb-item3-grid{
+
+        font-family: roboto;
+        font-size: 13px;
+        color: gray;
+        
+        #iem-des{
+                position: relative;
+                bottom: 5px;
+        }
+}
+
+.fb-item-grid{
+        display: grid;
+        grid-template-columns: 38px 100px;
+}

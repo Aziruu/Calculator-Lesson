@@ -1,0 +1,29 @@
+body{
+    background-color: gray;
+}
+
+.container{
+    display: flex;
+    gap: 3px;
+    list-style: none;
+    justify-content: center;
+}
+
+.card{
+    width: 100px;
+    height: 100px;
+    background-color: var(--card-color,white);
+    border-radius: 15px;
+}
+
+.galeri{
+    list-style: none;
+    display: block;
+    width: 50%;
+    gap: px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(120px, 1fr));
+    list-style: none;
+    margin: auto;
+    border: none;
+}

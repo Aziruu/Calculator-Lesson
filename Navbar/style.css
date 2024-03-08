@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:lightgray;
+}
+img{
+    background: rgb(40, 40, 40);
+}
+li, a, button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+    color: white;
+    text-decoration:none;
+    background: rgb(40, 40, 40);
+}
+a{
+    justify-content: space-between;
+    display: inline-block;
+}
+button{
+    padding: 10px 40px;
+    background: rgb(97, 115, 215);
+    border-radius: 50px;
+    border: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background: rgb(40, 40, 40);
+}
+.nav-link{
+    list-style: none;
+}
+.nav-link li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav-link li a{
+    transition: all 0.5s ;
+}
