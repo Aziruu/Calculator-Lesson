@@ -1,2 +1,2 @@
-# Calculator-Lesson
-its the my calculator lesson
+# It-is-My-Every-Lesson
+its the my Exercise Every lesson
